@@ -1,0 +1,69 @@
+.menu{
+  padding: 100px 400px;    
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 20px;
+}
+.menu> .beverage{
+    border: 1px solid #dddddd ;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+.menu> .beverage > .border{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 10px solid rgb(255, 91, 40);
+    opacity: 0;
+}
+.menu> .beverage > .border:hover {
+    opacity: 1;
+
+}
+.menu> .beverage >.new{
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(255, 166, 0, 0.634);
+    border: none;
+    border-radius: 9999px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.menu>.beverage>picture{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+.menu>.beverage>picture:hover>img{
+    transform: scale(1.5);
+}
+.menu>.beverage>.circle{
+    width: 8px;
+    height: 8px;
+    background-color: skyblue;
+    border-radius: 9999px;
+    margin-top: 20px;
+     
+}
+.menu>.beverage>.name{
+    font-size: 8px;
+    font-weight: 700;
+    margin-top: 10px;
+
+}
