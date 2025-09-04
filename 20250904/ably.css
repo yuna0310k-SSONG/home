@@ -1,0 +1,24 @@
+header{
+    width: 100%;
+
+}
+nav{
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0px auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+nav > .links{
+    background-color: transparent;
+    border: none;
+
+}
+nav > .links > button:hover{
+    background-color: blanchedalmond;
+}
