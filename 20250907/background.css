@@ -1,0 +1,7 @@
+.background {
+  height: 80vh;
+  background-image: url("black.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
