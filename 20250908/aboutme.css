@@ -1,0 +1,70 @@
+.aboutme {
+  width: 100%;
+  max-width: 1100px;
+
+  margin: 0 auto;
+}
+.aboutme > .aboutme__title {
+  padding: 0 30px;
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.aboutme > .aboutme__title > .title-main {
+  font-family: "GodoRounded";
+  font-weight: 500;
+  font-size: 80px;
+
+  color: #f4f0e4;
+}
+.aboutme > .aboutme__title > .title-sub {
+  font-family: "GodoRounded";
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #f4f0e4;
+
+  padding-left: 20px;
+  border-left: 3px solid #f4f0e4;
+}
+.aboutme > .aboutme__contents {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.aboutme > .aboutme__contents > .contents__tags {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 380px;
+  height: 180px;
+
+  margin: 100px auto;
+  padding: 10px 10px;
+
+  cursor: pointer;
+}
+.aboutme > .aboutme__contents > .contents__tags > .tag-icon {
+  font-size: 40px;
+  color: #6c6c6c;
+  font-family: "GodoRounded";
+}
+.aboutme > .aboutme__contents > .contents__tags > .tags-main {
+  font-size: 40px;
+  color: #6c6c6c;
+  font-family: "GodoRounded";
+}
+.aboutme > .aboutme__contents > .contents__tags > .tags-sub {
+  font-size: 20px;
+  color: #6c6c6c;
+  font-family: "GodoRounded";
+}
